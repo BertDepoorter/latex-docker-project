@@ -30,7 +30,7 @@ Instructions to get started with a new local LaTeX project.
 ### 1. Clone This Repository
 
 ```bash
-git clone https://github.com/BertDepoorter/latex-docker-project.git
+git https://z.depoorter.name:4243/tea/bert/latex-docker-project.git
 cd latex-docker-project
 ```
 
