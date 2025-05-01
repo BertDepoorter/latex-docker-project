@@ -36,6 +36,7 @@ cd latex-docker-project
 
 ### 2. Write project
 Now you can start writing your project. This requires a `main.tex` file which governs the build of your LaTeX project. Creates all subfiles to this directory. This is how your directory should look like, potentially with additional `.tex` files or directories with e.g. figures:
+```
 .
 ├── Dockerfile               # Docker build instructions
 ├── docker-compose.yml       # Docker config for running LaTeX container
@@ -44,6 +45,7 @@ Now you can start writing your project. This requires a `main.tex` file which go
 ├── yourbibliography.bib     # file with references
 └── .devcontainer/           # VS Code container config
     └── devcontainer.json
+```
 
 ### 3. Example Use
 
