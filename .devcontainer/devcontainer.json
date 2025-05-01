@@ -1,0 +1,26 @@
+{
+    "name": "LaTeX Dev Container",
+    "build": {
+      "dockerfile": "../Dockerfile"
+    },
+    "workspaceFolder": "/home/latexuser/project",
+    "extensions": [
+      "james-yu.latex-workshop"  
+    ],
+    "settings": {
+      "latex-workshop.latex.recipes": [
+        {
+          "name": "latexmk (docker)",
+          "tools": ["latexmk"]
+        }
+      ],
+      "latex-workshop.latex.tools": [
+        {
+          "name": "latexmk",
+          "command": "latexmk",
+          "args": ["-pdf", "-interaction=nonstopmode", "-synctex=1", "%DOC%"]
+        }
+      ]
+    }
+  }
+  

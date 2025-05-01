@@ -1,0 +1,8 @@
+version: '3'
+services:
+  latex:
+    build: .
+    volumes:
+      - .:/home/latexuser/project   # Mount current directory into container
+    working_dir: /home/latexuser/project
+    command: bash
