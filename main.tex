@@ -1,0 +1,29 @@
+% Example tex file
+
+\documentclass[12pt,twoside]{report}
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{amsfonts, amsmath, amssymb, amsthm}
+\usepackage{emptypage}            
+
+\begin{document}    
+\maketitle
+\tableofcontents
+
+\section{Introduction}
+\subsection{Gravitational Waves}
+\lipsum[1]
+\subsection{Quantum mechanics}
+\lipsum[2]
+\section{LaTeX}
+\lipsum[3]
+\subsection{Basic commands}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Figures/Docker_Logo.png}
+    \caption{An example image.}
+    \label{fig:example}
+\end{figure}
+
+See Figure \ref{fig:example} for an example image.
+\end{document}  
