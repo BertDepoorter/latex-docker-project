@@ -4,7 +4,7 @@ This repository aims to provide a Docker Image from which you can run latex loca
 
 ```bash
 latexmk -pdf main.tex
-
+```
 
 ## LaTeX SetUp
 
@@ -30,3 +30,4 @@ This project provides a complete and portable setup for writing LaTeX documents 
 ```bash
 git clone https://github.com/BertDepoorter/latex-docker-project.git
 cd latex-docker-project
+```
