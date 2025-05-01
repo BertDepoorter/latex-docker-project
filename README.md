@@ -31,3 +31,14 @@ This project provides a complete and portable setup for writing LaTeX documents 
 git clone https://github.com/BertDepoorter/latex-docker-project.git
 cd latex-docker-project
 ```
+
+### File structure
+This is how your directory should look like:
+.
+├── Dockerfile               # Docker build instructions
+├── docker-compose.yml       # Docker config for running LaTeX container
+├── Makefile                 # define build and clean commands
+├── main.tex                 # main latex file
+├── yourbibliography.bib     # file with references
+└── .devcontainer/           # VS Code container config
+    └── devcontainer.json
