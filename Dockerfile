@@ -1,4 +1,4 @@
-FROM mac
+FROM debian:bookworm
 
 # Install required tools for LaTeX workflow
 RUN apt-get update && apt-get install -y \
